@@ -1,0 +1,63 @@
+.social-auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-auth img {
+  cursor: pointer;
+}
+
+.useEmail {
+  border-radius: 20px;
+  background-color: #00caca;
+  border-color: #00caca;
+  padding: 10px;
+}
+.useEmailLogin {
+  border-radius: 20px;
+  padding: 10px 13px;
+  background-color: #00caca;
+  border-color: #00caca;
+}
+.g-signin {
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #f0e6ee;
+  color: #19122e;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: -0.32px;
+  padding: 7px 10px;
+  font: 600 16px/150% 'Source Serif Pro', -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+.signup {
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #00caca;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: -0.32px;
+  padding: 7px 10px;
+  font: 600 16px/150% 'Source Serif Pro', -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+.title {
+  color: #d0b2e5;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  max-width: 614px;
+  font-size: 34px;
+  font: 700 45px/39px 'Source Serif Pro', -apple-system, Roboto, Helvetica,
+    sans-serif;
+}

@@ -1,0 +1,68 @@
+.button-container {
+  min-width: 230px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px;
+  font-size: 15px;
+  background-color: lightseagreen;
+  border-radius: 5px;
+  color: ghostwhite;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: #fff;
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+  }
+
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: ghostwhite;
+
+    &:hover {
+      background-color: #357ae8;
+      border: none;
+    }
+  }
+
+  &.inverted {
+    background-color: ghostwhite;
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: ghostwhite;
+      border: none;
+    }
+  }
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .button-container {
+    min-width: 180px;
+    padding: 0 25px;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button-container {
+    min-width: 150px;
+    padding: 0 20px;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+  }
+}

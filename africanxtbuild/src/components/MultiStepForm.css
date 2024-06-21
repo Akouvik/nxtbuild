@@ -1,0 +1,69 @@
+/* src/components/multiStepForm/MultiStepForm.css */
+
+.multi-step-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.form-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px auto; /* Center horizontally and add bottom margin */
+  padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+.form-step input,
+.form-step button {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  max-width: 300px;
+  border-width: 2px;
+  border-radius: 15px;
+}
+
+.progress-bar {
+  position: relative;
+  top: 14px;
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+.input-form {
+  margin: 60px;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 300px;
+  border-width: 1px;
+  border-radius: 10px;
+  height: 100px;
+  box-shadow: 10px 30px 10px darkgray;
+}
+.form-step-input-next {
+  padding: 0;
+  margin: 0 auto;
+}
